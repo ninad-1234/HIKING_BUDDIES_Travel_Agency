@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>Signup Form </title>
+<link rel="stylesheet" href="d SignUp.css">
+<style>
+  form{padding-top:0px;
+  text-align:left;
+font-size: 16px;
+  }
+
+
+  .arrow
+{
+    background-color: rgb(250, 182, 56);
+}
+
+#button1:hover{
+    background-color: rgb(69, 86, 243);
+}
+#button2:hover{
+    background-color: red;
+}
+#btn:hover{
+    background-color: rgb(69, 86, 243);
+}
+
+
+#button1{
+    width: 150px;
+    height: 35px;
+    background-color: rgb(250, 182, 56);
+cursor: pointer;
+}
+
+#button2{
+    width: 150px;
+    height: 35px;
+    background-color: rgb(250, 182, 56);
+    cursor: pointer;
+}
+#btn{
+  background-color: rgb(250, 182, 56);
+}
+.center
+{
+  width: 250px;
+  height: 100px;
+  margin-right: 10px;
+  float: right;
+}
+</style>
+</head>
+<body>
+  <div class="arrow">
+    <font size=3 align='center'><a href="a home page.html"><img src="arrow.jpg" height="20px" width="20px"/></a></font></button>    
+</div>
+<img src="bb.jpg" class="center">
+    <form action="d SignUp.php" method="post" onsubmit="return Validate()" name="vform">
+      <table>
+      <td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></td><td> </td><td> </td>
+      <td><td></td><td><h1 style="font-family:verdana;"><font color="white"><u>Hiking Buddies</u></font></h1></td></tr>
+      </table>
+      <div class="sign-up-form">
+        <h1>Sign Up</h1>
+        <label for="FName"><b>First Name * :</b></label> <input type="text" class="input-box" placeholder="Your First Name" name="fname" required><br><br>
+        <label for="MName"><b>Middle Name:</b></label> <input type="text" class="input-box" placeholder="Your Middle Name" name="mname" ><br><br>
+        <label for="LName"><b>Last Name * :</b></label>  <input type="text" class="input-box" placeholder="Your Last Name" name="lname" required><br><br>
+        <label for="DOB"><b>DOB * :</b></label>      <input type="date" class="input-box" placeholder="DOB" name="DOB"  required><br><br>
+
+        <label for="Email"><b>Email * :</b></label>      <input type="email" class="input-box" placeholder="Your Email" name="emailid"  required><br><br>
+        <table>
+        <tr>
+        <td><b>Gender:</b></td><td> </td></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td>
+        <td><input type="radio" name="status" checked>Male</td></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td>
+        <td><input type="radio" name="status">Female</td></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td>
+        <td><input type="radio" name="status">Other</td>
+        </tr></table><br>
+        <table>
+        <tr>
+        <td><b>Phone Number * :</b></td>
+        <td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td>
+        <td><select>
+        <option>+91</option>
+        <option>+65</option>
+        <option>+01</option>
+        </select>                                      
+        <input type="text" placeholder="Enter your phone number" pattern="[0-9]{10}" name="pnum"></td></table><br>
+        <label for="address"><b>Address * :</b></label>
+        <textarea rows="4" cols="50" placeholder="Enter your address here...." name="address" required></textarea><br><br>
+        <label for="UName"><b>Username * :</b></label>
+        <input type="text" class="input-box" placeholder="Your Username" name="username"required><br><br>
+        <label for="psw"><b>Password * :</b></label>
+        <input type="password" id="pass" class="input-box" placeholder="Your Password" name="password" required><br><br>
+        <button type="button" id="btn">Show Password</button><br>
+<br>
+        <label for="pswreconfirm"><b>Reconfirm  * :</b></label>
+        <input type="password" placeholder="Reconfirm Password" name="pswreconfirm" required><br><br>
+        
+        <div id="password_error" class="val_error"></div>
+        <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+        </label>
+
+
+
+
+       <div id="container">
+        <input type="submit" value="Sign Up" id="button1" >
+        
+<a href="a home page.html"><input type="button" id="button2" value="Cancel"></a> 
+        </div>
+       </div>
+    </form>
+    <script src="d SignUp.js"></script>
+</body>
+</html>
+
+
+<script type="text/javascript">
+        
+  var password = document.forms["vform"]["password"];
+  var pswreconfirm = document.forms["vform"]["pswreconfirm"];
+
+  var password_error = document.getElementById("password_error");
+
+  password.addEventListener("blur",passwordVerify , true);
+
+  function Validate()
+  {
+    if(password.value != pswreconfirm.value)
+    {
+      password.style.border ="1px solid red";
+      pswreconfirm.style.border ="1px solid red";
+      password_error.innerHTML = "The Two passwords do not match";
+      return false;
+    }
+  }
+
+  </script>

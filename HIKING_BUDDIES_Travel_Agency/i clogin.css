@@ -1,0 +1,97 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(e.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.sign-up-form
+{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: transparent;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+}
+
+.sign-up-form h1
+{
+    color: #b7e4e4;
+    margin-bottom: 10px;
+}
+
+.input-box
+{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+
+
+
+
+
+
+
+img
+{
+    width: 70px;
+}
+
+.company
+{
+    
+    margin-left: 50px;
+    text-align: center;
+    color: chartreuse;
+    rotate: 60;
+}
+
+.he1
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: rgb(49, 45, 45);
+    text-align: left;
+}
+
+.he2
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: rgb(49, 45, 45);
+    text-align: left;
+}
+hr
+{
+    margin-top: 20px;
+    width: 200px;
+}
+.or
+{
+    background: transparent;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
